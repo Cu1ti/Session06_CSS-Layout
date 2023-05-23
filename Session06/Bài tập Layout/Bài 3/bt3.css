@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 650px;
+    height: auto;
+    margin: 30px auto;
+    border: none;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(238, 237, 237);
+}
+.container > h3 {
+    font-size: 30px;
+}
+.book1 {
+    width: 200px;
+    height: 120px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    padding: 5px;
+}
+.book1 h5 {
+    font-size: 17px;
+    padding: 5px;
+}
+.book1 p {
+    font-size: 13px;
+    padding: 5px;
+}
+.book1 button {
+    width: 50px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.book {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
